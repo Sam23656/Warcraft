@@ -1,9 +1,16 @@
 {% extends 'Warcraft_app/base.html' %}
 
 {% block head %}
-
+{% load static %}
+<link rel="stylesheet" href="{% static 'Warcraft_app/css/index.css' %}">
 {% endblock head %}
 
-{% block content %}
 
+{% block content %}
+<div class="banner" >
+    <div class="banner-container ">
+        <p class="fs-1">Определите судьбу мира Warcraft</p>
+        <p class="fs-5 mt-5">СТРАТЕГИЯ В РЕАЛЬНОМ ВРЕМЕНИ</p>
+    </div>
+</div>
 {% endblock content %}
